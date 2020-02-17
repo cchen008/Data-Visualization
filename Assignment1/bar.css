@@ -1,0 +1,17 @@
+.bar-chart {
+    background-color: #C7D9D9;
+    }
+    
+.bar {
+     fill: #1870a7;
+     }
+
+.bar:hover {
+    fill: darkgreen;
+}
+
+.titles {
+    font-family: serif;
+    font-size: 25px;
+    font-weight: bold;
+}
