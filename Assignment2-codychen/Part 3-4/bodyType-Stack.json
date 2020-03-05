@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/cchen008/Data-Visualization/master/data/Automobile.json"
+  },
+  "width": 800,
+  "height": 500,
+  "title": "Body Type of Different Car Types",
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "make",
+      "type": "ordinal",
+      "axis": {
+        "title": "Make of Cars",
+        "titleFontSize": 16
+      }
+    },
+    "y": {
+      "aggregate": "count",
+      "field": "body-style",
+      "type": "quantitative",
+      "axis": {
+        "title": "Body-Type Count",
+        "titleFontSize": 16
+      }
+    },
+    "color": {
+      "field": "body-style",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "hardtop",
+          "sedan",
+          "convertible",
+          "hatchback",
+          "wagon"
+        ],
+        "range": [
+          "#e7ba52",
+          "#c7c7c7",
+          "#aec7e8",
+          "#1f77b4",
+          "#9467bd"
+        ]
+      },
+      "legend": {
+        "title": "Body Type"
+      }
+    }
+  },
+  "config": {}
+}

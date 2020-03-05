@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/cchen008/Data-Visualization/master/data/Automobile.json"
+  },
+  "width": 800,
+  "height": 500,
+  "title": "Fuel Type for Different Cars",
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "make",
+      "type": "ordinal",
+      "axis": {
+        "title": "Make of Cars",
+        "titleFontSize": 16
+      }
+    },
+    "y": {
+      "aggregate": "count",
+      "field": "fuel-type",
+      "type": "quantitative",
+      "axis": {
+        "title": "Fuel-type Count",
+        "titleFontSize": 16
+      }
+    },
+    "color": {
+      "field": "fuel-type",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "diesel",
+          "gas"
+        ],
+        "range": [
+          "#c7c7c7",
+          "#1f77b4"
+        ]
+      },
+      "legend": {
+        "title": "Fuel Type"
+      }
+    }
+  },
+  "config": {}
+}

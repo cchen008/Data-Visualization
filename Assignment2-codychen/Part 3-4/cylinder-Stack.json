@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/cchen008/Data-Visualization/master/data/Automobile.json"
+  },
+  "width": 800,
+  "height": 500,
+  "title": "Different # of Cylinders for Each Type of Car",
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "make",
+      "type": "ordinal",
+      "axis": {
+        "title": "Month of the year",
+        "titleFontSize": 16
+      }
+    },
+    "y": {
+      "aggregate": "count",
+      "field": "body-style",
+      "type": "quantitative",
+      "axis": {
+        "title": "Count of Cylinders",
+        "titleFontSize": 16
+      }
+    },
+    "color": {
+      "field": "num-of-cylinders",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "two",
+          "three",
+          "four",
+          "five",
+          "six",
+          "eight",
+          "twelve"
+        ],
+        "range": [
+          "#e7ba52",
+          "#aec7e8",
+          "#1f77b4",
+          "#c7c7c7",
+          "#9467bd",
+          "black"
+        ]
+      },
+      "legend": {
+        "title": "# of Cylinders"
+      }
+    }
+  },
+  "config": {}
+}

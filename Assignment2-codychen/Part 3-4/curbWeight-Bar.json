@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/cchen008/Data-Visualization/master/data/Automobile.json"
+  },
+  "width": 800,
+  "height": 500,
+  "title": "Curb Weight of Each Type of Car",
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "make",
+      "type": "nominal",
+      "axis": {
+        "title": "Make of Car",
+        "titleFontSize": 16
+      }
+    },
+    "y": {
+      "field": "curb-weight",
+      "type": "quantitative",
+      "axis": {
+        "title": "Curb Weight",
+        "titleFontSize": 16
+      }
+    }
+  },
+  "config": {}
+}

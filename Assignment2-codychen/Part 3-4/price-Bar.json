@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/cchen008/Data-Visualization/master/data/Automobile.json"
+  },
+  "width": 800,
+  "height": 500,
+  "title": "Price of Each Type of Car",
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "make",
+      "type": "ordinal",
+      "axis": {"title": "Make of Car", "titleFontSize": 16}
+    },
+    "y": {
+      "field": "price",
+      "type": "quantitative",
+      "axis": {"title": "Price", "titleFontSize": 16}
+    }
+  },
+  "config": {}
+}

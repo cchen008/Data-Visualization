@@ -1,0 +1,265 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/cchen008/Data-Visualization/master/data/Automobile.json"
+  },
+  "width": 1050,
+  "height": 600,
+  "transform": [
+    {
+      "window": [
+        {
+          "op": "count",
+          "as": "index"
+        }
+      ]
+    },
+    {
+      "fold": [
+        "fuel-type",
+        "body-style",
+        "curb-weight",
+        "num-of-cylinders",
+        "engine-size",
+        "horsepower",
+        "city-mpg",
+        "highway-mpg",
+        "price"
+      ]
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "min",
+          "field": "value",
+          "as": "min"
+        },
+        {
+          "op": "max",
+          "field": "value",
+          "as": "max"
+        }
+      ],
+      "groupby": [
+        "key"
+      ]
+    },
+    {
+      "calculate": "datum.value",
+      "as": "norm_val"
+    },
+    {
+      "calculate": "(datum.min + datum.max) / 2",
+      "as": "mid"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#ccc"
+      },
+      "encoding": {
+        "detail": {
+          "aggregate": "count",
+          "type": "quantitative"
+        },
+        "x": {
+          "type": "nominal",
+          "field": "key"
+        }
+      }
+    },
+    {
+      "mark": "line",
+      "encoding": {
+        "color": {
+          "type": "nominal",
+          "field": "make"
+        },
+        "detail": {
+          "type": "nominal",
+          "field": "index"
+        },
+        "opacity": {
+          "value": 0.3
+        },
+        "x": {
+          "type": "nominal",
+          "field": "key"
+        },
+        "y": {
+          "type": "nominal",
+          "field": "norm_val",
+          "axis": null
+        },
+        "tooltip": [
+          {
+            "type": "nominal",
+            "field": "make"
+          },
+          {
+            "type": "nominal",
+            "field": "fuel-type"
+          },
+          {
+            "type": "nominal",
+            "field": "body-style"
+          },
+          {
+            "type": "quantitative",
+            "field": "curb-weight"
+          },
+          {
+            "type": "nominal",
+            "field": "num-of-cylinders"
+          },
+          {
+            "type": "quantitative",
+            "field": "engine-size"
+          },
+          {
+            "type": "quantitative",
+            "field": "horsepower"
+          },
+          {
+            "type": "quantitative",
+            "field": "city-mpg"
+          },
+          {
+            "type": "quantitative",
+            "field": "highway-mpg"
+          },
+          {
+            "type": "quantitative",
+            "field": "price"
+          }
+        ]
+      }
+    },
+    {
+      "encoding": {
+        "x": {
+          "type": "nominal",
+          "field": "key"
+        },
+        "y": {
+          "value": 0
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "style": "label"
+          },
+          "encoding": {
+            "text": {
+              "aggregate": "max",
+              "field": "max",
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "tick",
+            "style": "tick",
+            "size": 8,
+            "color": "#ccc"
+          }
+        }
+      ]
+    },
+    {
+      "encoding": {
+        "x": {
+          "type": "nominal",
+          "field": "key"
+        },
+        "y": {
+          "value": 150
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "style": "label"
+          },
+          "encoding": {
+            "text": {
+              "aggregate": "min",
+              "field": "mid",
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "tick",
+            "style": "tick",
+            "size": 8,
+            "color": "#ccc"
+          }
+        }
+      ]
+    },
+    {
+      "encoding": {
+        "x": {
+          "type": "nominal",
+          "field": "key"
+        },
+        "y": {
+          "value": 300
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "style": "key"
+          },
+          "encoding": {
+            "text": {
+              "aggregate": "min",
+              "field": "min",
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "tick",
+            "style": "tick",
+            "size": 8,
+            "color": "#ccc"
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "axisX": {
+      "domain": false,
+      "labelAngle": 0,
+      "tickColor": "#ccc",
+      "title": null
+    },
+    "view": {
+      "stroke": null
+    },
+    "style": {
+      "label": {
+        "baseline": "middle",
+        "align": "right",
+        "dx": -5
+      },
+      "tick": {
+        "orient": "horizontal"
+      }
+    }
+  }
+}
