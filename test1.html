@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega@5.10.1"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.10.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.5.2"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>D3 Test 1</title>
+    </head>
+    <style>
+        .bar {
+            width: 25px;
+            height: 100px;
+            margin: 2px;
+            display: inline-block;
+            background-color: blue;
+        }
+
+        .bars:hover {
+            fill:brown
+        }
+    </style>
+    <body>
+        <div id="vis1"></div>
+        <div id="vis2"></div>
+    </body>
+</html>
+<script>
+    // dataset = [11, 21, 31, 22, 12, 45]
+
+    // d3.select("body")
+    //     .append("h1")
+    //     .text("Hello World")
+    //     .style("color","salmon");
+
+    // const list = d3.selectAll("li")
+    //     .text("Hello List")
+    //     .style("font-family","Verdana")
+    //     .style("color","salmon");
+
+    // const dataList = d3.select("body")
+    //     .selectAll("ul")
+    //     .data(dataset)
+    //     .enter()
+    //     .append("ul")
+    //     .text((d) => d)
+    //     .style("font-size", "20px")
+    //     .style("color", (d) => {
+    //         if(d < 22){
+    //             return "orange";
+    //         }
+    //         else{
+    //             return "green";
+    //         }
+    //     });
+
+    // const bargraph = d3.select("body")
+    //     .selectAll("div")
+    //     .data(dataset)
+    //         .enter()
+    //     .append("div")
+    //     .attr("class","bar")
+    //     .style("height", (d) => 10*d + "px")
+    
+    // const w = 500;
+    // const h =300;
+
+    // const svg = d3.select("body")
+    //     .append("svg")
+    //     .attr("width", w)
+    //     .attr("height", h)
+
+    // svg.selectAll("rect")
+    //     .data(dataset)
+    //         .enter()
+    //     .append("rect")
+    //     .attr("x", (d,i)=> {
+    //         return i*30
+    //     })
+    //     .attr("y", (d,i) => h-d*3)
+    //     .attr("width", 25)
+    //     .attr("height", (d,i) => {
+    //         return h*3
+    //     })
+    //     .attr("fill", "salmon")
+    //     .attr("class", "bars")
+
+    // svg.selectAll("text")
+    //     .data(dataset)
+    //         .enter()
+    //     .append("text")
+    //     .attr("x", (d,i) => i*30)
+    //     .attr("y", (d,i) => h-d*3-3)
+    //     .text((d)=> d)
+    //     .style("font-size","25px")
+    //     .attr("fill", "red")
+
+    var yourVlSpec1 = {
+        $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
+        data: {url: "https://raw.githubusercontent.com/ddanhs/59969-p2/master/D%20__%20CSc%2055969_%20new%20sheet%20-%20Sheet1.csv"},
+        mark: 'bar',
+        width: "1150",
+        height: "500",
+        encoding: {
+            x: {
+                timeUnit: 'monthdate',
+                field: 'date', 
+                type: 'ordinal',
+                axis: {title: "Days"},
+            },
+            y: {
+                aggregate: 'count',
+                type: 'quantitative',
+                axis: {title: "Hours"}
+            },
+            color: {
+                field: "category",
+                type: "nominal",
+                scale: {
+                    domain: ["Chores", "Media Consumption", "Social Media", "Socializing", "ETC"],
+                    range: ["#ffbe16", "#ca0515", "#115d8c", "#05ca93", "#9467bd"]
+                },
+                legend: {title: "Category"}
+            },
+            tooltip: [{
+                type: "nominal",
+                field: "details",
+                title: "Activity"
+            }]
+        },
+    }
+    
+    var yourVlSpec2 = {
+        $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
+        data: {url: "https://raw.githubusercontent.com/cchen008/Data-Visualization/master/data/procrastination.csv"},
+        mark: 'bar',
+        width: "1150",
+        height: "500",
+        encoding: {
+            x: {
+                timeUnit: 'monthdate',
+                field: 'date', 
+                type: 'ordinal',
+                axis: {title: "Days"},
+            },
+            y: {
+                aggregate: 'count',
+                type: 'quantitative',
+                axis: {title: "Hours"}
+            },
+            color: {
+                field: "category",
+                type: "nominal",
+                scale: {
+                    domain: ["Games", "Media Consumption", "Social Media", "Outdoors", "Relaxing"],
+                    range: ["#2c5ec9", "#ca0515", "#115d8c", "#179931", "#9467bd"]
+                },
+                legend: {title: "Category"}
+            },
+            tooltip: [{
+                type: "nominal",
+                field: "details",
+                title: "Activity"
+            }]
+        },
+    }
+    vegaEmbed('#vis1', yourVlSpec1);
+    vegaEmbed('#vis2', yourVlSpec2);
+</script>
