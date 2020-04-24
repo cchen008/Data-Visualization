@@ -1,0 +1,291 @@
+date,start,end,category,details,amount,work,anxiety,attempts,day,totalutc,totaltime,name
+2-Mar,17:00,18:00,Chores,Cooking,4,school,2,1,Monday,1:00,2,Diana
+2-Mar,19:00,20:00,ETC,Skincare,4,school,3,1,Monday,1:00,,Diana
+3-Mar,17:00,18:00,Media Consumption,Youtube,2,school,5,2,Tuesday,1:00,2,Diana
+3-Mar,23:00,0:00,Socializing,Movies with Friends,1,school,1,0,Tuesday,1:00,,Diana
+4-Mar,12:00,13:00,Social Media,Twitter,1,school,3,0,Wednesday,1:00,3,Diana
+4-Mar,17:00,18:00,Chores,Cooking,2,school,4,2,Wednesday,1:00,,Diana
+4-Mar,19:00,20:00,Media Consumption,Youtube,2,school,5,1,Wednesday,1:00,,Diana
+5-Mar,17:00,18:00,Social Media,Online Shopping,2,school,1,1,Thursday,1:00,2,Diana
+5-Mar,21:00,22:00,Media Consumption,Netflix: Love is Blind,2,school,1,0,Thursday,1:00,,Diana
+6-Mar,17:00,18:00,Social Media,Twitter,2,school,3,0,Friday,1:00,2,Diana
+6-Mar,20:00,21:00,Social Media,Online Shopping,2,work,3,0,Friday,1:00,,Diana
+7-Mar,10:00,11:00,Socializing,Hang Out,1,school,1,0,Saturday,1:00,3,Diana
+7-Mar,11:00,12:00,Socializing,Hang Out,1,school,1,0,Saturday,1:00,,Diana
+7-Mar,12:00,13:00,ETC,Shopping,1,school,1,0,Saturday,1:00,,Diana
+8-Mar,13:00,14:00,Social Media,Tumblr,1,school,2,2,Sunday,1:00,5,Diana
+8-Mar,15:00,16:00,Social Media,Twitter,1,school,2,1,Sunday,1:00,,Diana
+8-Mar,16:00,17:00,Socializing,Hang Out,1,school,2,3,Sunday,1:00,,Diana
+8-Mar,0:00,1:00,Media Consumption,Netflix: Love is Blind,1,school,2,2,Sunday,1:00,,Diana
+8-Mar,2:00,3:00,Socializing,Movies with Friends,1,school,2,2,Sunday,1:00,,Diana
+9-Mar,16:00,17:00,Chores,Customer Service Problems,1,school,1,2,Monday,1:00,3,Diana
+9-Mar,19:00,20:00,Media Consumption,Netflix: Love is Blind,3,school,5,5,Monday,1:00,,Diana
+9-Mar,22:00,23:00,Socializing,Movies with Friends,3,school,5,5,Monday,1:00,,Diana
+10-Mar,17:00,18:00,Hobby,Arts and Crafts,2,school,4,4,Tuesday,1:00,2,Diana
+10-Mar,20:00,21:00,Social Media,Twitter,2,school,3,5,Tuesday,1:00,,Diana
+11-Mar,18:00,19:00,Social Media,Twitter,3,school,2,1,Wednesday,1:00,2,Diana
+11-Mar,19:00,20:00,Media Consumption,Netflix: Crash Landing,3,school,2,3,Wednesday,1:00,,Diana
+12-Mar,10:00,11:00,Socializing,Hang Out,3,school,2,1,Thursday,1:00,3,Diana
+12-Mar,11:00,12:00,Socializing,Hang Out,3,school,2,1,Thursday,1:00,,Diana
+12-Mar,19:00,20:00,Chores,Customer Service Problems,3,school,2,2,Thursday,1:00,,Diana
+13-Mar,10:00,11:00,ETC,Event / Concert,3,school,1,2,Friday,1:00,5,Diana
+13-Mar,11:00,12:00,ETC,Event / Concert,3,school,1,1,Friday,1:00,,Diana
+13-Mar,12:00,13:00,Socializing,Hang Out,3,school,1,0,Friday,1:00,,Diana
+13-Mar,13:00,14:00,Socializing,Hang Out,3,school,1,0,Friday,1:00,,Diana
+13-Mar,14:00,15:00,Socializing,Hang Out,3,school,1,0,Friday,1:00,,Diana
+14-Mar,11:00,12:00,Social Media,iMessage,3,work,3,2,Saturday,1:00,5,Diana
+14-Mar,12:00,13:00,Social Media,iMessage,3,work,3,3,Saturday,1:00,,Diana
+14-Mar,14:00,15:00,Social Media,iMessage,3,work,3,4,Saturday,1:00,,Diana
+14-Mar,15:00,16:00,Socializing,Hang Out,3,work,3,1,Saturday,1:00,,Diana
+14-Mar,17:00,18:00,Social Media,Reading News,3,work,3,2,Saturday,1:00,,Diana
+15-Mar,14:00,15:00,Social Media,Online Shopping,3,work,3,3,Sunday,1:00,1,Diana
+16-Mar,12:00,13:00,Social Media,Twitter,3,work,5,3,Monday,1:00,6,Diana
+16-Mar,13:00,14:00,Hobby,Arts and Crafts,3,school,5,1,Monday,1:00,,Diana
+16-Mar,14:00,15:00,Hobby,Arts and Crafts,3,school,5,0,Monday,1:00,,Diana
+16-Mar,15:00,16:00,Hobby,Arts and Crafts,3,school,5,1,Monday,1:00,,Diana
+16-Mar,17:00,18:00,Hobby,Arts and Crafts,3,school,5,0,Monday,1:00,,Diana
+16-Mar,23:00,0:00,Socializing,Movies with Friends,2,school,6,0,Monday,1:00,,Diana
+17-Mar,11:00,12:00,Social Media,iMessage,2,school,6,1,Tuesday,1:00,4,Diana
+17-Mar,13:00,14:00,Chores,Grocery Shopping,2,school,3,0,Tuesday,1:00,,Diana
+17-Mar,16:00,17:00,Hobby,Arts and Crafts,2,school,4,2,Tuesday,1:00,,Diana
+17-Mar,17:00,18:00,Chores,Cooking,2,school,5,3,Tuesday,1:00,,Diana
+18-Mar,15:00,16:00,Socializing,Movies with Friends,1,school,3,2,Wednesday,1:00,9,Diana
+18-Mar,16:00,17:00,Socializing,Movies with Friends,1,school,3,2,Wednesday,1:00,,Diana
+18-Mar,17:00,18:00,Hobby,Arts and Crafts,1,school,3,1,Wednesday,1:00,,Diana
+18-Mar,18:00,19:00,Hobby,Arts and Crafts,1,school,3,0,Wednesday,1:00,,Diana
+18-Mar,19:00,20:00,Hobby,Arts and Crafts,1,school,3,0,Wednesday,1:00,,Diana
+18-Mar,20:00,21:00,Hobby,Arts and Crafts,1,school,3,0,Wednesday,1:00,,Diana
+18-Mar,20:00,21:00,Socializing,Facetime,1,school,3,0,Wednesday,1:00,,Diana
+18-Mar,21:00,22:00,Socializing,Facetime,1,school,5,0,Wednesday,1:00,,Diana
+18-Mar,22:00,23:00,Socializing,Facetime,1,school,5,0,Wednesday,1:00,,Diana
+19-Mar,16:00,17:00,ETC,Nap,2,school,5,0,Thursday,1:00,2,Diana
+19-Mar,20:00,21:00,Social Media,Twitter,2,school,5,5,Thursday,1:00,,Diana
+20-Mar,2:00,3:00,Social Media,Twitter,1,school,4,1,Friday,1:00,5,Diana
+20-Mar,15:00,16:00,Social Media,Online Shopping,1,school,4,4,Friday,1:00,,Diana
+20-Mar,18:00,19:00,Hobby,Photoshop,1,school,4,2,Friday,1:00,,Diana
+20-Mar,19:00,20:00,Hobby,Photoshop,1,school,4,2,Friday,1:00,,Diana
+20-Mar,21:00,22:00,Media Consumption,Vlive,1,school,4,6,Friday,1:00,,Diana
+21-Mar,10:00,11:00,Social Media,Twitter,1,school,3,2,Saturday,1:00,6,Diana
+21-Mar,15:00,16:00,Socializing,Movies with Friends,1,school,3,1,Saturday,1:00,,Diana
+21-Mar,16:00,17:00,Socializing,Movies with Friends,1,school,3,1,Saturday,1:00,,Diana
+21-Mar,17:00,18:00,Socializing,Movies with Friends,1,school,3,2,Saturday,1:00,,Diana
+21-Mar,18:00,19:00,Socializing,Movies with Friends,1,school,3,1,Saturday,1:00,,Diana
+21-Mar,23:00,0:00,Hobby,Photoshop,1,school,3,3,Saturday,1:00,,Diana
+22-Mar,0:00,1:00,Hobby,Photoshop,1,school,5,1,Sunday,1:00,4,Diana
+22-Mar,2:00,3:00,Hobby,Photoshop,1,school,5,2,Sunday,1:00,,Diana
+22-Mar,15:00,16:00,Hobby,Photoshop,1,school,5,1,Sunday,1:00,,Diana
+22-Mar,20:00,21:00,Social Media,Twitter,1,school,5,7,Sunday,1:00,,Diana
+23-Mar,13:00,14:00,Social Media,Twitter,1,school,5,4,Monday,1:00,6,Diana
+23-Mar,16:00,17:00,Socializing,Facetime,2,school,5,2,Monday,1:00,,Diana
+23-Mar,18:00,19:00,Socializing,Facetime,2,school,5,5,Monday,1:00,,Diana
+23-Mar,21:00,22:00,Socializing,Facetime,2,school,5,4,Monday,1:00,,Diana
+23-Mar,22:00,23:00,Socializing,Facetime,2,school,5,5,Monday,1:00,,Diana
+23-Mar,23:00,0:00,Socializing,Facetime,2,school,5,2,Monday,1:00,,Diana
+24-Mar,8:00,9:00,Social Media,Twitter,2,school,5,2,Tuesday,1:00,3,Diana
+24-Mar,9:00,10:00,Social Media,iMessage,2,school,5,3,Tuesday,1:00,,Diana
+24-Mar,16:00,17:00,Social Media,Twitter,2,school,5,5,Tuesday,1:00,,Diana
+25-Mar,16:00,17:00,Social Media,Twitter,2,school,5,5,Wednesday,1:00,6,Diana
+25-Mar,19:00,20:00,Socializing,Facetime,2,school,5,2,Wednesday,1:00,,Diana
+25-Mar,20:00,21:00,Socializing,Facetime,2,school,5,2,Wednesday,1:00,,Diana
+25-Mar,21:00,22:00,Socializing,Facetime,2,school,6,3,Wednesday,1:00,,Diana
+25-Mar,22:00,23:00,Socializing,Facetime,2,school,6,4,Wednesday,1:00,,Diana
+25-Mar,23:00,0:00,Socializing,Facetime,2,school,6,5,Wednesday,1:00,,Diana
+26-Mar,13:00,14:00,Media Consumption,Youtube,1,school,4,1,Thursday,1:00,5,Diana
+26-Mar,17:00,18:00,Social Media,Twitter,1,school,4,3,Thursday,1:00,,Diana
+26-Mar,18:00,19:00,Hobby,Photoshop,1,school,4,0,Thursday,1:00,,Diana
+26-Mar,19:00,20:00,Hobby,Photoshop,1,school,4,0,Thursday,1:00,,Diana
+26-Mar,23:00,0:00,Hobby,Photoshop,1,school,4,0,Thursday,1:00,,Diana
+27-Mar,0:00,1:00,Hobby,Photoshop,1,school,4,0,Friday,1:00,5,Diana
+27-Mar,1:00,2:00,Hobby,Photoshop,1,school,4,0,Friday,1:00,,Diana
+27-Mar,2:00,3:00,Hobby,Photoshop,1,school,4,0,Friday,1:00,,Diana
+27-Mar,12:00,13:00,Socializing,Twitter,1,school,3,1,Friday,1:00,,Diana
+27-Mar,15:00,16:00,Social Media,Twitter,1,school,3,2,Friday,1:00,,Diana
+28-Mar,0:00,1:00,Hobby,Photoshop,1,school,3,0,Saturday,1:00,5,Diana
+28-Mar,16:00,17:00,Media Consumption,Netflix,1,school,3,3,Saturday,1:00,,Diana
+28-Mar,20:00,21:00,Social Media,Twitter,1,school,3,4,Saturday,1:00,,Diana
+28-Mar,21:00,22:00,Socializing,Twitter,1,school,3,3,Saturday,1:00,,Diana
+28-Mar,23:00,0:00,Socializing,Twitter,1,school,3,2,Saturday,1:00,,Diana
+29-Mar,12:00,13:00,Social Media,Twitter,1,school,3,3,Sunday,1:00,3,Diana
+29-Mar,17:00,18:00,Socializing,Twitter,1,school,3,2,Sunday,1:00,,Diana
+29-Mar,18:00,19:00,Socializing,Twitter,1,school,3,3,Sunday,1:00,,Diana
+30-Mar,9:00,10:00,Social Media,Twitter,1,school,3,4,Monday,1:00,7,Diana
+30-Mar,16:00,17:00,Socializing,Movies with Friends,1,school,3,1,Monday,1:00,,Diana
+30-Mar,17:00,18:00,Socializing,Movies with Friends,1,school,3,2,Monday,1:00,,Diana
+30-Mar,18:00,19:00,Socializing,Movies with Friends,1,school,3,1,Monday,1:00,,Diana
+30-Mar,19:00,20:00,Socializing,Movies with Friends,1,school,3,2,Monday,1:00,,Diana
+30-Mar,20:00,21:00,Socializing,Movies with Friends,1,school,3,4,Monday,1:00,,Diana
+30-Mar,22:00,23:00,Social Media,Twitter,1,school,3,3,Monday,1:00,,Diana
+31-Mar,11:00,12:00,Media Consumption,Tiktok,1,school,4,3,Tuesday,1:00,4,Diana
+31-Mar,12:00,13:00,Social Media,Twitter,1,school,4,4,Tuesday,1:00,,Diana
+31-Mar,20:00,21:00,Socializing,Movies with Friends,1,school,4,3,Tuesday,1:00,,Diana
+31-Mar,21:00,22:00,Socializing,Movies with Friends,1,school,4,1,Tuesday,1:00,,Diana
+1-Apr,12:00,13:00,Social Media,Twitter,1,school,4,2,Wednesday,1:00,3,Diana
+1-Apr,20:00,21:00,Social Media,Games with Friends,1,school,4,0,Wednesday,1:00,,Diana
+1-Apr,21:00,22:00,Social Media,Games with Friends,1,school,4,0,Wednesday,1:00,,Diana
+2-Apr,18:00,19:00,Social Media,Twitter,2,school,4,3,Thursday,1:00,4,Diana
+2-Apr,19:00,20:00,Socializing,Twitter,2,school,4,4,Thursday,1:00,,Diana
+2-Apr,21:00,22:00,Socializing,Movies with Friends,2,school,4,4,Thursday,1:00,,Diana
+2-Apr,22:00,23:00,ETC,Online Shopping,2,school,4,3,Thursday,1:00,,Diana
+3-Apr,0:00,1:00,Social Media,Twitter,2,school,4,3,Friday,1:00,8,Diana
+3-Apr,12:00,13:00,Media Consumption,Netflix,2,school,4,1,Friday,1:00,,Diana
+3-Apr,15:00,16:00,Social Media,Twitter,2,school,4,2,Friday,1:00,,Diana
+3-Apr,19:00,20:00,Socializing,Twitter,2,school,4,3,Friday,1:00,,Diana
+3-Apr,20:00,21:00,Hobby,Photoshop,2,school,4,0,Friday,1:00,,Diana
+3-Apr,21:00,22:00,Socializing,Twitter,2,school,4,2,Friday,1:00,,Diana
+3-Apr,22:00,23:00,Socializing,Games with Friends,2,school,4,3,Friday,1:00,,Diana
+3-Apr,23:00,0:00,Socializing,Games with Friends,2,school,4,4,Friday,1:00,,Diana
+4-Apr,0:00,1:00,Hobby,Photoshop,2,school,4,0,Saturday,1:00,8,Diana
+4-Apr,13:00,14:00,Media Consumption,Netflix,2,school,4,2,Saturday,1:00,,Diana
+4-Apr,14:00,15:00,Media Consumption,Netflix,2,school,4,1,Saturday,1:00,,Diana
+4-Apr,15:00,16:00,Media Consumption,Netflix,2,school,4,1,Saturday,1:00,,Diana
+4-Apr,16:00,17:00,Media Consumption,Netflix,2,school,4,0,Saturday,1:00,,Diana
+4-Apr,17:00,18:00,Social Media,Twitter,2,school,4,3,Saturday,1:00,,Diana
+4-Apr,18:00,19:00,Socializing,Twitter,2,school,4,4,Saturday,1:00,,Diana
+4-Apr,22:00,23:00,Socializing,Twitter,2,school,4,5,Saturday,1:00,,Diana
+5-Apr,13:00,14:00,Socializing,Twitter,2,school,4,3,Sunday,1:00,3,Diana
+5-Apr,21:00,22:00,Socializing,Movies with Friends,2,school,4,4,Sunday,1:00,,Diana
+5-Apr,22:00,23:00,Socializing,Movies with Friends,2,school,4,5,Sunday,1:00,,Diana
+6-Apr,1:00,2:00,Socializing,Movies with Friends,3,school,4,4,Monday,1:00,3,Diana
+6-Apr,2:00,3:00,Socializing,Movies with Friends,3,school,4,4,Monday,1:00,,Diana
+6-Apr,22:00,23:00,Socializing,Twitter,3,school,4,3,Monday,1:00,,Diana
+7-Apr,0:00,1:00,Socializing,Twitter,3,school,5,4,Tuesday,1:00,4,Diana
+7-Apr,12:00,13:00,Social Media,Twitter,3,school,5,1,Tuesday,1:00,,Diana
+7-Apr,13:00,14:00,Media Consumption,Vlive,3,school,5,0,Tuesday,1:00,,Diana
+7-Apr,23:00,0:00,Social Media,Twitter + News,3,school,5,2,Tuesday,1:00,,Diana
+8-Apr,0:00,1:00,Socializing,Movies with Friends,2,school,5,3,Wednesday,1:00,9,Diana
+8-Apr,1:00,2:00,Socializing,Movies with Friends,2,school,5,4,Wednesday,1:00,,Diana
+8-Apr,2:00,3:00,Socializing,Movies with Friends,2,school,5,1,Wednesday,1:00,,Diana
+8-Apr,3:00,4:00,Socializing,Movies with Friends,2,school,5,2,Wednesday,1:00,,Diana
+8-Apr,4:00,5:00,Socializing,Movies with Friends,2,school,5,3,Wednesday,1:00,,Diana
+8-Apr,17:00,18:00,Social Media,Twitter,2,school,5,5,Wednesday,1:00,,Diana
+8-Apr,21:00,22:00,Socializing,Games with Friends,2,school,5,4,Wednesday,1:00,,Diana
+8-Apr,22:00,23:00,Socializing,Games with Friends,2,school,5,3,Wednesday,1:00,,Diana
+8-Apr,23:00,0:00,Socializing,Movies with Friends,2,school,5,2,Wednesday,1:00,,Diana
+9-Apr,1:00,2:00,Social Media,Twitter,2,school,3,1,Thursday,1:00,5,Diana
+9-Apr,4:00,5:00,Socializing,Movies with Friends,2,school,3,2,Thursday,1:00,,Diana
+9-Apr,19:00,20:00,Socializing,Games with Friends,2,school,3,3,Thursday,1:00,,Diana
+9-Apr,21:00,22:00,Social Media,Twitter,2,school,3,4,Thursday,1:00,,Diana
+9-Apr,22:00,23:00,Social Media,Twitter,2,school,3,1,Thursday,1:00,,Diana
+10-Apr,0:00,1:00,ETC,Online Shopping,2,school,3,2,Friday,1:00,7,Diana
+10-Apr,3:00,4:00,Socializing,Games with Friends,2,school,3,3,Friday,1:00,,Diana
+10-Apr,4:00,5:00,Socializing,Twitter,2,school,3,1,Friday,1:00,,Diana
+10-Apr,15:00,16:00,Social Media,Twitter,2,school,3,2,Friday,1:00,,Diana
+10-Apr,18:00,19:00,Social Media,Twitter,2,school,3,4,Friday,1:00,,Diana
+10-Apr,22:00,23:00,Socializing,Movies with Friends,2,school,3,4,Friday,1:00,,Diana
+10-Apr,23:00,0:00,Socializing,Movies with Friends,2,school,3,1,Friday,1:00,,Diana
+11-Apr,0:00,1:00,Socializing,Twitter,2,school,4,2,Saturday,1:00,6,Diana
+11-Apr,1:00,2:00,Socializing,Twitter,2,school,4,3,Saturday,1:00,,Diana
+11-Apr,2:00,3:00,Socializing,Twitter,2,school,4,4,Saturday,1:00,,Diana
+11-Apr,3:00,4:00,Social Media,Twitter,2,school,4,1,Saturday,1:00,,Diana
+11-Apr,20:00,21:00,Social Media,Twitter + Discord,2,school,4,2,Saturday,1:00,,Diana
+11-Apr,22:00,23:00,Social Media,Twitter + Discord,2,school,4,3,Saturday,1:00,,Diana
+12-Apr,2:00,3:00,Social Media,Twitter + Discord,2,school,5,4,Sunday,1:00,7,Diana
+12-Apr,3:00,4:00,Social Media,Twitter,2,school,5,1,Sunday,1:00,,Diana
+12-Apr,4:00,5:00,Social Media,Twitter,2,school,5,2,Sunday,1:00,,Diana
+12-Apr,17:00,18:00,Social Media,Twitter,2,school,5,3,Sunday,1:00,,Diana
+12-Apr,20:00,21:00,Socializing,Twitter,2,school,5,2,Sunday,1:00,,Diana
+12-Apr,21:00,22:00,Socializing,Movies with Friends,2,school,5,1,Sunday,1:00,,Diana
+12-Apr,23:00,0:00,Socializing,Movies with Friends,2,school,5,2,Sunday,1:00,,Diana
+13-Apr,1:00,2:00,Socializing,Twitter,3,school,5,2,Monday,1:00,5,Diana
+13-Apr,11:00,12:00,Socializing,Twitter,3,school,5,2,Monday,1:00,,Diana
+13-Apr,17:00,18:00,Chores,Post Office,3,school,5,0,Monday,1:00,,Diana
+13-Apr,18:00,19:00,Socializing,iMessage,3,school,5,2,Monday,1:00,,Diana
+13-Apr,23:00,0:00,Socializing,Twitter,3,school,5,1,Monday,1:00,,Diana
+2-Mar,9:30 PM,11:00 PM,Media Consumption,Youtube,1,school,6,1,,1:30,1.5,Cody
+3-Mar,7:00 PM,7:30 PM,Social Media,Reddit,2,school,4,0,,0:30,0.5,Cody
+4-Mar,3:00 PM,4:00 PM,Media Consumption,Youtube,2,school,4,1,,2:00,2,Cody
+4-Mar,6:00 PM,7:00 PM,Media Consumption,Twitch,1,school,5,0,,,,Cody
+5-Mar,7:00 PM,7:30 PM,Media Consumption,Youtube,1,school,2,0,,0:30,0.5,Cody
+6-Mar,3:00 PM,6:00 PM,Games,Switch,3,school,3,2,,3:00,3,Cody
+7-Mar,11:30 AM,1:00 PM,Media Consumption,Netflix,3,school,4,0,,2:30,2.5,Cody
+7-Mar,2:00 PM,3:00 PM,Social Media,Reddit,3,school,6,1,,,,Cody
+8-Mar,11:00 AM,2:00 PM,Games,Switch,3,school,5,0,,4:30,4.5,Cody
+8-Mar,3:30 PM,4:00 PM,Media Consumption,Youtube,2,school,6,1,,,,Cody
+8-Mar,8:00 PM,9:00 PM,Social Media,Reddit,1,school,6,1,,,,Cody
+9-Mar,10:30 AM,12:00 PM,Media Consumption,Youtube,1,school,2,0,,1:30,1.5,Cody
+10-Mar,2:00 PM,3:00 PM,Social Media,Reddit,2,school,4,0,,2:30,2.5,Cody
+10-Mar,9:00 PM,10:30 PM,Media Consumption,Twitch,1,school,5,1,,,,Cody
+11-Mar,1:00 PM,3:00 PM,Media Consumption,Twitch,2,school,4,1,,4:00,4,Cody
+11-Mar,9:00 PM,11:00 PM,Media Consumption,Youtube,1,school,5,0,,,,Cody
+12-Mar,8:00 PM,9:00 PM,Outdoors,Out with friends,3,school,1,0,,1:00,1,Cody
+13-Mar,10:00 AM,12:00 PM,Media Consumption,Twitch,2,school,2,0,,3:00,3,Cody
+13-Mar,6:00 PM,7:00 PM,Relaxing,Nap,1,school,3,0,,,,Cody
+14-Mar,10:00 AM,1:00 PM,Media Consumption,Youtube,3,school,3,1,,8:00,8,Cody
+14-Mar,3:00 PM,6:00 PM,Media Consumption,Twitch,3,school,4,1,,,,Cody
+14-Mar,10:00 PM,12:00 AM,Media Consumption,Netflix,2,school,4,0,,,,Cody
+15-Mar,10:00 AM,12:30 PM,Media Consumption,Youtube,3,school,4,0,,6:30,6.5,Cody
+15-Mar,3:00 PM,5:00 PM,Media Consumption,Twitch,2,school,5,1,,,,Cody
+15-Mar,10:00 PM,12:00 AM,Media Consumption,Youtube,2,school,5,1,,,,Cody
+16-Mar,10:00 PM,11:00 PM,Media Consumption,Youtube,2,school,3,0,,6:00,6,Cody
+16-Mar,3:00 PM,7:00 PM,Outdoors,Out with friends,1,school,4,0,,,,Cody
+16-Mar,11:00 PM,12:00 AM,Media Consumption,Youtube,1,school,4,0,,,,Cody
+17-Mar,2:00 PM,6:00 PM,Outdoors,Out with friends,2,school,3,0,,6:00,6,Cody
+17-Mar,9:30 PM,10:30 PM,Media Consumption,Twitch,2,school,4,0,,,,Cody
+17-Mar,11:30 PM,12:30 AM,Media Consumption,Youtube,2,school,4,0,,,,Cody
+18-Mar,10:00 AM,12:00 PM,Games,PC,2,school,3,0,,10:30,10.5,Cody
+18-Mar,12:30 PM,7:00 PM,Outdoors,Out with friends,2,school,3,0,,,,Cody
+18-Mar,9:00 PM,11:00 PM,Games,PC,2,school,4,1,,,,Cody
+19-Mar,11:00 AM,1:00 PM,Games,PC,3,school,4,0,,7:30,7.5,Cody
+19-Mar,7:00 PM,10:00 PM,Games,Time with family,2,school,3,0,,,,Cody
+19-Mar,10:30 PM,1:00 AM,Games,PC,2,school,3,0,,,,Cody
+20-Mar,11:00 AM,1:00 PM,Games,Time with family,3,school,4,0,,7:00,7,Cody
+20-Mar,5:30 PM,6:00 PM,Social Media,Reddit,2,school,3,1,,,,Cody
+20-Mar,7:30 PM,12:00 AM,Media Consumption,Twitch,3,school,3,0,,,,Cody
+21-Mar,10:30 AM,12:00 PM,Media Consumption,Youtube,3,school,3,0,,1:30,1.5,Cody
+22-Mar,12:30 PM,6:00 PM,Outdoors,Out with friends,3,school,3,0,,8:30,8.5,Cody
+22-Mar,9:00 PM,12:00 AM,Games,PC,3,school,4,0,,,,Cody
+23-Mar,10:30 AM,12:00 PM,Media Consumption,Youtube,3,school,4,0,,6:30,6.5,Cody
+23-Mar,4:00 PM,5:00 PM,Media Consumption,Twitch,2,school,3,0,,,,Cody
+23-Mar,8:00 PM,12:00 AM,Games,PC,2,school,4,0,,,,Cody
+24-Mar,10:30 AM,1:50 PM,Media Consumption,Youtube,3,school,4,0,,6:30,6.5,Cody
+24-Mar,4:50 PM,6:00 PM,Games,Time with family,2,school,4,0,,,,Cody
+24-Mar,10:00 PM,12:00 AM,Games,PC,2,school,4,0,,,,Cody
+25-Mar,3:00 PM,7:00 PM,Outdoors,Out with friends,2,school,3,0,,6:00,6,Cody
+25-Mar,10:30 PM,12:30 AM,Games,PC,2,school,3,0,,,,Cody
+26-Mar,10:30 PM,2:00 AM,Games,PC,3,school,3,0,,8:30,8.5,Cody
+26-Mar,5:00 PM,7:00 PM,Games,PC,2,school,3,0,,,,Cody
+26-Mar,9:30 PM,12:30 AM,Games,PC,2,school,3,0,,,,Cody
+27-Mar,10:30 AM,12:00 PM,Media Consumption,Youtube,4,school,4,1,,9:00,9,Cody
+27-Mar,2:00 PM,5:00 PM,Games,PC,3,school,3,1,,,,Cody
+27-Mar,8:00 PM,12:30 AM,Games,PC,3,school,3,0,,,,Cody
+28-Mar,10:30 AM,12:30 PM,Media Consumption,Twitch,4,school,4,1,,7:00,7,Cody
+28-Mar,3:00 PM,5:00 PM,Games,PC,3,school,4,0,,,,Cody
+28-Mar,8:30 PM,11:30 PM,Media Consumption,Youtube,3,school,4,0,,,,Cody
+29-Mar,10:30 AM,12:00 PM,Media Consumption,Youtube,4,school,5,0,,7:30,7.5,Cody
+29-Mar,5:00 PM,9:00 PM,Games,Time with family,3,school,4,0,,,,Cody
+29-Mar,10:00 PM,12:00 AM,Games,PC,3,school,4,0,,,,Cody
+30-Mar,10:30 AM,1:00 PM,Games,PC,3,school,4,0,,11:30,11.5,Cody
+30-Mar,2:00 PM,4:00 PM,Media Consumption,Movie,3,school,5,0,,,,Cody
+30-Mar,5:00 PM,12:00 AM,Games,PC,3,school,5,0,,,,Cody
+31-Mar,10:30 AM,1:00 PM,Games,PC,4,school,5,0,,4:30,4.5,Cody
+31-Mar,2:00 PM,4:00 PM,Games,PC,3,school,4,0,,,,Cody
+1-Apr,12:30 PM,2:00 PM,Media Consumption,Youtube,2,school,3,1,,6:00,6,Cody
+1-Apr,8:00 PM,12:30 AM,Games,PC,2,school,3,1,,,,Cody
+2-Apr,11:00 AM,2:00 PM,Games,PC,3,school,4,0,,7:00,7,Cody
+2-Apr,8:00 PM,12:00 AM,Games,PC,3,school,3,0,,,,Cody
+3-Apr,10:30 AM,12:30 PM,Media Consumption,Youtube,3,school,3,1,,7:30,7.5,Cody
+3-Apr,6:30 PM,12:00 AM,Games,PC,4,school,3,0,,,,Cody
+4-Apr,10:30 AM,2:00 PM,Games,PC,4,school,3,0,,9:30,9.5,Cody
+4-Apr,6:00 PM,12:00 AM,Games,PC,4,school,4,0,,,,Cody
+5-Apr,10:30 AM,2:00 PM,Media Consumption,Youtube,4,school,4,0,,7:30,7.5,Cody
+5-Apr,8:00 PM,12:00 AM,Games,PC,2,school,3,0,,,,Cody
+6-Apr,10:30 AM,11:30 AM,Media Consumption,Youtube,3,school,3,0,,1:00,1,Cody
+7-Apr,4:00 PM,5:00 PM,Media Consumption,Twitch,2,school,3,0,,3:00,3,Cody
+7-Apr,10:00 PM,12:00 AM,Media Consumption,Youtube,2,school,2,0,,,,Cody
+8-Apr,11:00 AM,2:00 PM,Media Consumption,Twitch,4,school,3,1,,11:00,11,Cody
+8-Apr,4:00 PM,12:00 AM,Games,PC,4,school,4,0,,,,Cody
+9-Apr,10:30 AM,12:30 PM,Media Consumption,Youtube,4,school,4,1,,8:30,8.5,Cody
+9-Apr,2:30 PM,4:00 PM,Media Consumption,Twitch,4,school,4,1,,,,Cody
+9-Apr,7:30 PM,12:30 AM,Games,PC,3,school,3,0,,,,Cody
+10-Apr,10:30 AM,12:30 PM,Media Consumption,Youtube,3,school,3,1,,7:00,7,Cody
+10-Apr,16:30,6:00 PM,Media Consumption,Youtube,3,school,3,1,,,,Cody
+10-Apr,9:00 PM,12:30 AM,Games,PC,3,school,4,0,,,,Cody
+11-Apr,10:30 AM,1:30 PM,Media Consumption,Youtube,4,school,4,1,,9:00,9,Cody
+11-Apr,3:30 PM,4:30 PM,Media Consumption,Youtube,4,school,4,1,,,,Cody
+11-Apr,7:30 PM,12:30 AM,Games,PC,4,school,5,0,,,,Cody
+12-Apr,1:00 AM,3:00 AM,Media Consumption,Movie,4,school,5,0,,8:00,8,Cody
+12-Apr,11:00 AM,12:30 PM,Media Consumption,Youtube,4,school,5,1,,,,Cody
+12-Apr,4:30 PM,6:00 PM,Media Consumption,Twitch,3,school,4,1,,,,Cody
+12-Apr,9:30 PM,12:30 AM,Games,PC,3,school,5,1,,,,Cody
+13-Apr,3:30 PM,4:30 PM,Media Consumption,Youtube,3,school,4,1,,2:00,2,Cody
+13-Apr,11:00 PM,12:00 AM,Media Consumption,Youtube,2,school,4,0,,,,Cody
